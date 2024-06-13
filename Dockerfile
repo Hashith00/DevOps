@@ -14,7 +14,7 @@ COPY . .
 USER node
 
 # Expose port 1000
-EXPOSE 3000
+EXPOSE 3002
 
 # Command to run the application
 CMD [ "node", "index.js" ]
