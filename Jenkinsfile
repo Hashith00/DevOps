@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'hashithNode'
         DOCKER_TAG = 'latest'
-        DOCKER_REPO = 'node_devops'
+        DOCKER_REPO = 'hashith/node_devops'
     }
 
     stages {
